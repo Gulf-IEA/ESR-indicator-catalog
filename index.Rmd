@@ -1,0 +1,51 @@
+---
+title: "Synthetic Indicator Catalog"
+author: "Southeast Fisheries Science Center"
+date: "`r format(Sys.Date(), '%e %B %Y')`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: 
+    -   bibliography/StateOftheEcosystem.bib
+#geometry: "left=1.0in, right=1.0in, top=1.0in, bottom=1.0in, includefoot"
+biblio-style: apalike
+#csl: chicago-fullnote-bibliography.csl
+csl: plos.csl
+always_allow_html: true
+link-citations: true
+github-repo: NOAA-EDAB/catalog
+url: https://noaa-edab.github.io/catalog/
+description: "This catalogue holds information on available datasets and indicators."
+---
+
+# Introduction {-}
+
+
+The purpose of this document is to collate the indicator information and methods used to inform the data driven products on the South Atlantic, Gulf of Mexico, and Caribbean Ecosystems by the Southeast Fisheries Science Center (see figure, below). 
+
+The information included in this document is contributed by a large variety of collaborators and contact information is available in each chapter. When possible, provided data is available in `ecodata`, an R package that holds the latest version of the data available. 
+
+The metadata for each indicator (in accordance with the [Public Access to Research Results (PARR) directive](http://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf)) and the methods used to construct each indicator are described in the subsequent chapters or in the Technical Documentation, with each chapter title corresponding to an indicator or analysis.
+
+
+```{r setup, echo=FALSE, message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = F,
+                      message = F,
+                      warning = F)
+
+#shadedRegion <- c(2013,2022)
+
+ library(magrittr)
+ library(dplyr)
+ library(sf)
+
+
+```
+
+(ref:neusmap) Map of Northeast U.S. Continental Shelf Large Marine Ecosystem from @hare_vulnerability_2016
+
+```{r neusmap, message = FALSE, warning=FALSE, fig.align='center',out.width="75%", echo = F, fig.cap='(ref:neusmap)'}
+knitr::include_graphics("images/journal.pone.0146756.g002.PNG")
+
+```
+
+

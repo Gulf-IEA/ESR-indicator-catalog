@@ -16,6 +16,4 @@ Create new repository in the Gulf-IEA organization for the ESR Indicator Catalog
 
 ### Step 2: Create issue template
 
-Add a new folder to the .github folder called ISSUE_TEMPLATE. Put a YAML file in that folder that has all the entries for the issue template. For now I have just copied and pasted the NE SOE template. We will modify it for our region.
-
-
+Add a new folder to the .github folder called ISSUE_TEMPLATE. Put a YAML file in that folder that has all the entries for the issue template. For now I have just copied and pasted the NE SOE template. We will modify it for our region. Here is the [reference](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) for creating a custom issue template.
