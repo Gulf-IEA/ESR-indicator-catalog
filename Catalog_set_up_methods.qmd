@@ -1,0 +1,21 @@
+---
+title: "Catalog set up methods"
+format: html
+editor: visual
+author: Carissa Gervasi 
+date-modified: 5/24/2024
+---
+
+## Purpose
+
+This Quarto doc exists to document the steps that were taken to create this indicator catalog, including how to create the issue template and have the template automatically populate the report.
+
+### Step 1: create repo
+
+Create new repository in the Gulf-IEA organization for the ESR Indicator Catalog. Clone the repository into RStudio on local computer.
+
+### Step 2: Create issue template
+
+Add a new folder to the .github folder called ISSUE_TEMPLATE. Put a YAML file in that folder that has all the entries for the issue template. For now I have just copied and pasted the NE SOE template. We will modify it for our region.
+
+
