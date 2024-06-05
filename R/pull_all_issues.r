@@ -13,7 +13,7 @@
 
 pull_all_issues <- function() {
   # Define repo information, pull issues from GH API and subset 'submissions'
-  repo <- 'https://api.github.com/repos/NOAA-EDAB/catalog/issues'
+  repo <- 'https://api.github.com/repos/Gulf-IEA/ESR-indicator-catalog/issues'
   # pull all issues and select all submission issues
   issueData <- list()
   # pulls 100 issues

@@ -18,7 +18,6 @@ source(here::here("R/create_listobject.R"))
 source(here::here("R/make_rmd.R"))
 source(here::here("R/pull_all_issues.R"))
 source(here::here("R/pull_single_issue.R"))
-library(ecodata)
 
 
 build_rmd_from_issue <- function(pullAllIssues=F,pullSingleIssue= F,issueNum = 1) {
