@@ -54,9 +54,8 @@ body:
         - label: Tourism (hotel occupancy)
         - label: Population
         - label: Abundance of economically important fish
-        - label: Abundance of commercial fish based on TCRMP and PRCRMP
-        - label: Slope of the size spectrum based on TCRMP and PRCRMP
-        - label: Landings 
+        - label: Abundance of commercial fish 
+        - label: Slope of the size spectrum 
         - label: Pelagic:demersal ratio
         - label: Lmax indicator
         - label: Total landings 
@@ -95,12 +94,13 @@ body:
       label: Family (Which group is this indicator associated with?)
       description: Please check the group(s) that could apply to your indicator.
       options:
-        - label: Oceanographic
-        - label: Habitat
-        - label: Lower trophic levels
-        - label: Megafauna
-        - label: Social
-        - label: Economic
+        - label: Risks to objectives
+        - label: Food production
+        - label: Socioeconomic health
+        - label: Engagement and participation
+        - label: Bycatch reduction
+        - label: Governance
+        - label: Protection of ecosystems
     validations:
       required: true
  
@@ -141,7 +141,7 @@ body:
     attributes:
       label: Spatial Scale
       description: Please briefly describe the spatial scale of the indicator.
-      placeholder: ex. by EPU and full shelf.
+      placeholder: ex. island-level, community-level, etc.
     validations:
       required: false
   - type: input
@@ -205,7 +205,7 @@ body:
     attributes:
       label: Data Contributors
       description: Enter the names of all contributing persons.
-      value: "Ex: Brandon Beltz, Sarah Gaichas and Sean Lucey."
+      value: "Ex: Carissa Gervasi, Mandy Karnauskas."
     validations:
       required: true
   - type: input
@@ -213,7 +213,7 @@ body:
     attributes:
       label: Point(s) of Contact
       description: Enter name(s) and email(s) for point(s) of contact.
-      placeholder: Ex. Brandon Beltz (brandon.beltz@noaa.gov)
+      placeholder: Ex. Carissa Gervasi (carissa.gervasi@noaa.gov)
     validations:
       required: true
       
